@@ -1,0 +1,288 @@
+body, html {
+  height: 100%;
+ width:100%;
+  margin: 0;
+ 
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  overflow-y:hidden;
+}
+
+.maincontainer {
+ width:auto;
+height:auto;
+
+ margin:0;
+ padding:15px;
+ padding-bottom:50px;
+  text-align: center;
+
+background: #355C7D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background:#F8F2DC;
+}
+
+
+p {
+  font-size: 2rem;
+  color: #cca64e;
+  font-family: 'Lobster', cursive;
+}
+
+
+/*Settings Area*/
+.settings{
+
+  top:8px;
+  left:-10px;
+  width:170px;
+  margin:0;
+  padding-left:-20px;
+  float:left;
+}
+
+.settings .dropdown-toggle{
+  padding:10px 0px;
+  margin:0;
+width:80%;
+  border:0;
+
+  font-family: 'Indie Flower',bold;
+}
+
+.btn.colorcube{
+  width:40px; 
+  height:40px; 
+  margin:4px;
+  border:2px solid black;
+  background-color:#F8F2DC;
+}
+
+
+
+.bgexample1, .bgexample1:hover{
+  background:linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);
+}
+
+.bgexample2,.bgexample2:hover{
+  background: #3E5151;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
+  background:linear-gradient(to right, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  .bgexample3, .bgexample3:hover{
+ background:#F8F2DC;
+}
+
+ .bgexample4, .bgexample4:hover{
+   background: url("images/background-board.jpg");  /* image background */
+ 
+ }
+
+.bgexample5, .bgexample5:hover{
+background: #C9D6FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bgexample6, .bgexample6:hover{
+  background: #56CCF2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  
+
+/* Title Area*/
+.title .fa-solid{
+  width: 32%;
+  height:45%;
+  padding:0;
+  margin:0;
+}
+
+.title .list-group{
+  width:24%;
+  min-width:300px;
+  height:240px;
+  position:relative;
+  top:4px;
+  left:22%;
+
+  padding:15px;
+   margin-bottom:50px;
+   margin-top:-25px;
+}
+
+@media (max-width:767px){
+  .title .list-group{
+    left:6%;
+  }
+}
+
+.title .list-group-item{
+  width:90%;
+  background-color:#e86146;
+
+  margin:1px;
+  border-radius:30px;
+  border:6px  double #211b1a;
+
+  padding-top:-2px;
+  text-align:left;
+  line-height:0.7;
+  word-spacing:1.2;
+  color: transparent;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 2.9rem;
+}
+
+.title .set{
+  margin-left:19%;
+}
+
+
+
+.title .roll{
+  margin-left:38%;
+}
+
+/*********************/
+
+/*Wintext*/
+.container.wintext{
+  width:20%;
+}
+
+.wintext{
+  width:10%;
+  margin-top:-20px;
+
+  background-color:#e8c046;
+  border-radius:20px;
+  border:4px  double #211b1a;
+  font-size:2rem;
+  color: transparent;
+  
+  font-family: 'Lobster', cursive;
+  text-shadow: 4px 0 #232931;
+
+
+   padding:0;
+}
+/* Dice area*/
+
+.dice-box.row{
+  width:90%;
+  height:80%;
+margin:8px 10px 0px 40px ;
+
+
+border:0px;
+position:relative;
+left:6%;
+padding:0;
+   }
+
+.dice .card-header, .dice .card-body, .dice .card-footer {
+padding:0px;
+border:0;
+margin:0px 10%;
+}
+
+.dice .card-body {
+margin-top:5px;
+}
+
+.card-footer .dropdownmenu{
+  position:center;
+}
+
+
+.diceimg{
+  width:40%;
+  margin-bottom:5px;
+}
+
+.diceexample1, .diceexample1:hover{
+  background: url("images/diceA/dice6A.png");
+  background-size:contain;  /* image background */
+
+}
+.diceexample2, .diceexample2:hover{
+  background: url("images/diceB/dice6B.png"); 
+  background-size:contain; /* image background */
+
+}
+.diceexample3, .diceexample3:hover{
+  background: url("images/diceC/dice6C.png"); 
+  background-size:contain;  /* image background */
+
+}
+.diceexample4, .diceexample4:hover{
+  background: url("images/diceD/dice6D.png");  
+  background-size:contain; /* image background */
+
+}
+.diceexample5, .diceexample5:hover{
+  background: url("images/diceE/dice6E.png"); 
+  background-size:contain;  /* image background */
+
+}
+.diceexample6, .diceexample6:hover{
+  background: url("images/diceF/dice6F.png"); 
+  background-size:contain;  /* image background */
+
+}
+
+.col-2.versus{
+    width:7%;
+    height:50%;
+
+    -ms-transform: translateY(90%);
+    transform: translateY(90%);
+    }
+  
+/****************/
+.dicebutton{
+ margin:10px 0 40px 0;
+ text-align:center;
+
+ height:50px;
+ text-align:center;
+}
+
+.dicebutton span{
+margin-left:-3%;
+}
+
+.btn.btn-warning{
+  padding:0%;
+  outline:none;
+width:15%;
+height:100%;
+border:3px groove;
+
+margin-top:-2px;
+min-width:100px;
+margin-left:-2%;
+font-size:1.6rem;
+}
+
+.btn.btn-warning:hover{
+  background-color: #020202;
+  color:#cca64e;
+}
+
+
+/****Footer*/
+
+footer {
+  margin-top: 1%;
+  color: #020202;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+font-size:1.2rem;
+}
