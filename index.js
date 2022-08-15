@@ -29,7 +29,7 @@ if (randomNr1 > randomNr2) {//If player 1 wins
 else if (randomNr2 > randomNr1) { //If player 2 wins
   document.querySelector(".wintext").innerHTML = "Player 2 Wins! "+ '<i class="fa-solid fa-medal"></i>';
 }
-else { //Draw
+else if(randomNr1 == randomNr2) { //Draw
   document.querySelector(".wintext").innerHTML = "Draw!"+ '<i class="fa-solid fa-scale-balanced"></i>';
 }
 }
@@ -40,7 +40,7 @@ function backgroundChange(option){
       document.querySelector(".maincontainer").style.background= 'linear-gradient(to right, #C06C84, #6C5B7B, #355C7D)';
       document.querySelectorAll(".playertext")[0].style.color=' #cca64e';   
       document.querySelectorAll(".playertext")[1].style.color=' #cca64e';  
-      document.querySelector(".versus").style.color=' #cca64e';  
+      document.querySelector(".versus .p").style.color=' #cca64e';  
       break;
 
      case 2:
@@ -49,34 +49,34 @@ function backgroundChange(option){
 document.querySelector(".maincontainer").style.background='linear-gradient(to right, #DECBA4, #3E5151)'; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 document.querySelectorAll(".playertext")[0].style.color=' white';   
       document.querySelectorAll(".playertext")[1].style.color=' white';  
-      document.querySelector(".versus").style.color=' white';  
+      document.querySelector(".versus .p").style.color=' white';  
       break;
 
      case 3:
       document.querySelector(".maincontainer").style.background='#F8F2DC'; //original color
       document.querySelectorAll(".playertext")[0].style.color=' #cca64e';   
       document.querySelectorAll(".playertext")[1].style.color='#cca64e';   
-      document.querySelector(".versus").style.color=' #cca64e';   
+      document.querySelector(".versus .p").style.color=' #cca64e';   
      break;
 
      case 4:
       document.querySelector(".maincontainer").style.background='url("images/background-board.jpg")';
       document.querySelectorAll(".playertext")[0].style.color='white';   
       document.querySelectorAll(".playertext")[1].style.color='white';   
-      document.querySelector(".versus").style.color=' white';   
+      document.querySelector(".versus .p").style.color=' white';   
      break;
     case 5:
       document.querySelector(".maincontainer").style.background='linear-gradient(to bottom, #E2E2E2, #C9D6FF)';
       document.querySelectorAll(".playertext")[0].style.color=' #cca64e';   
       document.querySelectorAll(".playertext")[1].style.color=' #cca64e';    
-      document.querySelector(".versus").style.color=' #cca64e';  
+      document.querySelector(".versus .p").style.color=' #cca64e';  
      break;
 
     case 6:
       document.querySelector(".maincontainer").style.background='linear-gradient(to bottom, #2F80ED, #56CCF2)';
       document.querySelectorAll(".playertext")[0].style.color='white';  
       document.querySelectorAll(".playertext")[1].style.color='white';  
-      document.querySelector(".versus").style.color=' white';   
+      document.querySelector(".versus .p").style.color=' white';   
      break; 
   }
 }
